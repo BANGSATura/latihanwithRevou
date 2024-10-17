@@ -1,12 +1,15 @@
-.container{
+body {
+    margin: 0;
+}
+nav.container{
     display: flex;
     justify-content: flex-end;
     border: 2px solid black;
 }
-.container > div{
+nav.container > div{
     font-family: 'Courier New', Courier, monospace;
     padding: 10px;
-    margin: 5px;
+    /* margin: 5px; */
     border: 1px solid black;
     text-transform: uppercase;
     align-self: center;
@@ -15,4 +18,28 @@
 .container > #logo{
     border: 0;
     margin-right: auto;
+}
+
+main {
+    padding: 20px;
+    text-transform: capitalize;
+}
+
+main .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+
+.bagianTabel > table, .bagianTabel th, .bagianTabel td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+footer {
+    padding: 10px;
+    display: flex;
+    justify-content: end;
+    border: 1px solid black;
 }
